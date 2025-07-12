@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "stylesheet" href = "style.css">
+    <title>Rock Paper Caesar</title>
+    <h1>Rock Paper Caesar - JojoTard Ver.</h1>
+  </head>
+  <body>
+    <button id="music-toggle-btn">Music On</button>
+    <div class = "choices">
+      <div class = "choice" id = "rock">
+        <img src = "/images/rock.jpg" >
+      </div>
+      <div class = "choice"  id = "paper">
+        <img src = "/images/paper.jpg">
+         </div>
+
+      <div class = "choice" id = "caesar">
+        <img src = "/images/caesar.jpg">
+         </div>
+      </div>
+
+      <div class = "names">
+        <div class = "name"> 
+             <p> Rock </p>
+        </div>
+           <div class = "name"> 
+             <p> Paper</p>
+        </div>
+           <div class = "name"> 
+             <p> Caesar </p>
+        </div>
+      </div>
+     
+ 
+
+
+      <div class="scoreboard">
+        <div class="score"> 
+          <p id = "userScore" > 0 </p>
+          <p style="color:white"> User</p>
+        </div>
+          <div class="score"> 
+          <p id = "compScore" > 0 </p>
+          <p style="color:white"> Computer</p>
+
+        </div>
+      </div>
+      <audio id="bg-music" src="images/bgmusic.mp3" loop></audio>
+    <div class="msgcontainer">
+      <p id = "msg"> Play your move! </p>
+    </div>
+    <script src = "script.js"></script>
+</html>
